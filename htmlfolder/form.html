@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <form action="thanks.html" method="post">
+        <label for="fullname">Your Full Name</label><br>
+        <input type="text" name="fullname" id="fullname" placeholder="Full name" required>
+                <br>
+        <label for="email">Your Email</label><br>
+        <input type="email" name="email" id="email" placeholder="Email" required>
+
+        <label for="gender">Gender</label><br>
+        <input type="radio" name="gender" id="gender" value="female"> female
+        <input type="radio" name="gender" value="male" id="gender"> male
+
+        <textarea cols="10" rows="10"></textarea>
+
+        <select name="state">
+            <option value="Lagos">Lagos</option>
+            <option value="Oyo">Oyo</option>
+            <option value="select one options" selected>slect one options </option>
+        </select>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
